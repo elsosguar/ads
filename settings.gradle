@@ -21,6 +21,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MasterAdsSdk"
 include ':app'
+include ':no-ads-sdk'
 include ':admob-ads-sdk'
 include ':facebook-ads-sdk'
 include ':applovin-ads-sdk'
@@ -31,6 +32,5 @@ include ':wortise-ads-sdk'
 include ':pangle-ads-sdk'
 include ':huawei-ads-sdk'
 include ':yandex-ads-sdk'
-include ':multi-ads-sdk'
 include ':multi-ads-sdk-no-is'
-include ':no-ads-sdk'
+include ':multi-ads-sdk'
