@@ -22,7 +22,7 @@ import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ProcessLifecycleOwner;
 
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
-import com.google.android.material.materialswitch.MaterialSwitch;
+import com.google.android.material.switchmaterial.SwitchMaterial;
 import com.solodroid.ads.sdkdemo.R;
 import com.solodroid.ads.sdkdemo.data.Constant;
 import com.solodroid.ads.sdkdemo.database.SharedPref;
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
     Toolbar toolbar;
-    MaterialSwitch materialSwitch;
+    SwitchMaterial materialSwitch;
     SharedPref sharedPref;
     Button btnInterstitial;
     Button btnRewarded;
