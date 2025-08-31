@@ -7,7 +7,7 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
 
-import com.solodroidx.ads.R;
+import com.solodroid.ads.pangle.R;
 
 public class BannerAdView extends LinearLayout {
 

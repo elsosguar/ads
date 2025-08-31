@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ad-services-config>
+    <attribution>
+        <allow-all-to-be-attributed-to-google>true</allow-all-to-be-attributed-to-google>
+        <filter>
+            <allow-list>
+                <package name="com.google.android.gms" />
+                <package name="com.android.vending" />
+            </allow-list>
+        </filter>
+    </attribution>
+    <measurement>
+        <enable-urls>
+            <url>https://www.googleadservices.com</url>
+            <url>https://www.googletagservices.com</url>
+            <url>https://www.google-analytics.com</url>
+            <url>https://googleads.g.doubleclick.net</url>
+            <url>https://www.google.com</url>
+            <url>https://pagead2.googlesyndication.com</url>
+        </enable-urls>
+        <enable-web-view-measurement>true</enable-web-view-measurement>
+    </measurement>
+</ad-services-config>

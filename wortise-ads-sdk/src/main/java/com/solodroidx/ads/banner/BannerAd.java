@@ -19,7 +19,7 @@ import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.admanager.AdManagerAdView;
-import com.solodroidx.ads.R;
+import com.solodroid.ads.wortise.R;
 import com.solodroidx.ads.util.Tools;
 import com.wortise.ads.AdError;
 

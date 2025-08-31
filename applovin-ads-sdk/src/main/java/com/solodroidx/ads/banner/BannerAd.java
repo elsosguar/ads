@@ -35,7 +35,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.admanager.AdManagerAdView;
-import com.solodroidx.ads.R;
+import com.solodroid.ads.applovin.R;
 import com.solodroidx.ads.helper.AppLovinCustomEventBanner;
 import com.solodroidx.ads.util.Tools;
 

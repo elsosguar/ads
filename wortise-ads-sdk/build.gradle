@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.solodroidx.ads'
+    namespace 'com.solodroid.ads.wortise'
     compileSdk 34
     defaultConfig {
         minSdk 21
@@ -30,7 +30,7 @@ dependencies {
 
     //Primary Ad Networks
     implementation 'com.google.android.gms:play-services-ads:23.6.0'
-    implementation 'com.wortise:android-sdk:1.6.1'
+    implementation 'com.wortise:android-sdk:1.7.1'
 
     //GDPR
     implementation 'com.google.android.ump:user-messaging-platform:3.1.0'

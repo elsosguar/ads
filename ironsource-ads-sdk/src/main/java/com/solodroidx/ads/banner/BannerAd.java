@@ -26,7 +26,7 @@ import com.ironsource.mediationsdk.IronSourceBannerLayout;
 import com.ironsource.mediationsdk.adunit.adapter.utility.AdInfo;
 import com.ironsource.mediationsdk.logger.IronSourceError;
 import com.ironsource.mediationsdk.sdk.LevelPlayBannerListener;
-import com.solodroidx.ads.R;
+import com.solodroid.ads.ironsource.R;
 import com.solodroidx.ads.util.Tools;
 
 @SuppressWarnings("deprecation")

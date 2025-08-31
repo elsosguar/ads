@@ -3,10 +3,10 @@ plugins {
 }
 
 android {
-    namespace 'com.solodroidx.ads'
+    namespace 'com.solodroid.ads.sdk'
     compileSdk 34
     defaultConfig {
-        minSdk 21
+        minSdk 23
         targetSdk 34
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -38,8 +38,15 @@ dependencies {
     implementation 'com.unity3d.ads:unity-ads:4.12.5'
     implementation 'com.ironsource.sdk:mediationsdk:8.4.0'
     implementation 'com.facebook.android:audience-network-sdk:6.18.0'
-    implementation 'com.wortise:android-sdk:1.6.1'
-    implementation 'com.pangle.global:ads-sdk:6.3.0.4'
+    implementation 'com.wortise:android-sdk:1.7.1'
+    // Pangle SDK temporarily disabled due to conflicts
+    // implementation ('com.pangle.global:ads-sdk:6.3.0.4') {
+    //     exclude group: 'com.pangle.global', module: 'pag-sdk-ad'
+    //     exclude group: 'com.pangle.global', module: 'pag-sdk'
+    //     exclude group: 'com.pangle.global', module: 'pag-sdk-ad-unfat'
+    //     exclude group: 'com.pangle.global', module: 'pag-gecko'
+    //     exclude group: 'com.pangle.global', module: 'pag-apm'
+    // }
     implementation 'com.huawei.hms:ads-prime:3.4.76.300'
     implementation 'com.huawei.hms:ads-consent:3.4.76.300'
     implementation 'com.yandex.android:mobileads:7.8.1'
@@ -55,21 +62,11 @@ dependencies {
     implementation 'com.applovin.mediation:google-adapter:23.6.0.1'
     implementation 'com.applovin.mediation:unityads-adapter:4.12.4.0'
     implementation 'com.applovin.mediation:ironsource-adapter:8.4.0.0.1'
-    implementation 'com.applovin.mediation:facebook-adapter:6.18.0.1'
+    // Facebook adapter removed to avoid conflicts
 
-    //ironSource mediation
-    implementation 'com.ironsource.adapters:admobadapter:4.3.46'
-    implementation 'com.ironsource.adapters:applovinadapter:4.3.48'
-    implementation 'com.ironsource.adapters:unityadsadapter:4.3.44'
-    implementation 'com.ironsource.adapters:facebookadapter:4.3.48'
+    // IronSource mediation adapters removed to avoid conflicts
 
-    //Unity ads mediation
-    implementation 'com.unity3d.mediation:mediation-sdk:1.1.0'
-    implementation 'com.unity3d.mediation:unityads-adapter:1.1.0'
-    implementation 'com.unity3d.mediation:admob-adapter:1.1.0'
-    implementation 'com.unity3d.mediation:applovin-adapter:1.1.0'
-    implementation 'com.unity3d.mediation:facebook-adapter:1.1.1'
-    implementation 'com.unity3d.mediation:ironsource-adapter:1.1.0'
+    // Unity mediation adapters removed to avoid conflicts
 
     //GDPR
     implementation 'com.google.android.ump:user-messaging-platform:3.1.0'

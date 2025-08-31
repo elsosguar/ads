@@ -1,4 +1,4 @@
-package com.solodroidx.ads.appopen;
+package com.solodroid.ads.admob.appopen;
 
 import static com.solodroidx.ads.util.Constant.ADMOB;
 import static com.solodroidx.ads.util.Constant.AD_STATUS_ON;

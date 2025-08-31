@@ -22,7 +22,7 @@ import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.admanager.AdManagerAdView;
 import com.huawei.hms.ads.AdParam;
 import com.huawei.hms.ads.BannerAdSize;
-import com.solodroidx.ads.R;
+import com.solodroid.ads.huawei.R;
 import com.solodroidx.ads.util.Tools;
 
 @SuppressWarnings("deprecation")

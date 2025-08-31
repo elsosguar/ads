@@ -25,7 +25,7 @@ import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.LoadAdError;
 import com.google.android.gms.ads.nativead.MediaView;
 import com.google.android.material.card.MaterialCardView;
-import com.solodroidx.ads.R;
+import com.solodroid.ads.ironsource.R;
 import com.solodroidx.ads.util.AdManagerTemplateView;
 import com.solodroidx.ads.util.NativeTemplateStyle;
 import com.solodroidx.ads.util.TemplateView;

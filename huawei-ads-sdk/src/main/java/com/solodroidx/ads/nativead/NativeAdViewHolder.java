@@ -34,7 +34,7 @@ import com.huawei.hms.ads.AdParam;
 import com.huawei.hms.ads.BiddingParam;
 import com.huawei.hms.ads.nativead.NativeAdLoader;
 import com.huawei.hms.ads.nativead.NativeView;
-import com.solodroidx.ads.R;
+import com.solodroid.ads.huawei.R;
 import com.solodroidx.ads.util.AdManagerTemplateView;
 import com.solodroidx.ads.util.Constant;
 import com.solodroidx.ads.util.NativeTemplateStyle;
